@@ -1,0 +1,9 @@
+a) Create a Django Project
+
+django-admin startproject warehouse_monitoring
+cd warehouse_monitoring
+python manage.py startapp dashboard
+
+
+b) Install Required Libraries
+pip install django paho-mqtt matplotlib djangorestframework
